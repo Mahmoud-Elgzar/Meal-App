@@ -5,8 +5,8 @@ import 'package:meal_app/screens/tabs_screen.dart';
 
 void main() {
   runApp(
-    ProviderScope(
-      child: const MyApp(),
+    const ProviderScope(
+      child:  MyApp(),
     ),
   );
 }
